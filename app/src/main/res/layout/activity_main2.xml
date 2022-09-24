@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activitys.MainActivity2">
+    
+   <com.google.android.material.button.MaterialButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/Get_userList"
+       android:text="Get Users List"
+
+      />
+
+   <com.google.android.material.button.MaterialButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/Get_user"
+       android:text="Get User"
+
+       />
+   <com.google.android.material.button.MaterialButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/Put"
+       android:text="Put"
+
+       />
+
+   <com.google.android.material.button.MaterialButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/Post"
+       android:text="Post"
+
+       />
+
+   <com.google.android.material.button.MaterialButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/Delete"
+       android:text="Delete"
+
+       />
+
+</LinearLayout>
